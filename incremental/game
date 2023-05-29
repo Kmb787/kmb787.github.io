@@ -8,5 +8,5 @@
   </span>
   <button type="button" onClick="cookieClick(1)"></button>
 
-  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="/incremental/main.js"></script>
 </body>
