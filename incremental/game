@@ -3,10 +3,12 @@
 </head>
 
 <body>
-  <span id="cookies">
+  <span id="cookies"></span>
+  <button type="button" name="addunit" onclick="cookieClick(1)"></button>
+  <br>
+  <button type="button" name="addbuild" onclick="cookieBuild(1)"></button>
+  Building: <span id="cursors">0</span><br>
+  Cost: <span id="cursorCost">2</span>
 
-  </span>
-  <button type="button" onClick="cookieClick(1)"></button>
-
-  <script type="text/javascript" src="/incremental/main.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 </body>
